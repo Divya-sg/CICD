@@ -1,8 +1,6 @@
 # lightweight python
 FROM public.ecr.aws/lambda/python:3.7
 
-RUN apt-get update
-
 # Copy local code to the container image.
 ENV APP_HOME /app
 WORKDIR $APP_HOME
