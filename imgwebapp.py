@@ -10,7 +10,7 @@ from io import BytesIO
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("Leaf Image Classifier")
-st.text("Provide URL of bean Image for image classification")
+st.text("Provide URL of any leaf Image")
 
 @st.cache(allow_output_mutation=True)
 def load_model():
