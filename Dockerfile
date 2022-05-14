@@ -1,5 +1,5 @@
 # lightweight python
-FROM public.ecr.aws/lambda/python:3.7
+FROM public.ecr.aws/docker/library/python:3.7-slim
 
 # Copy local code to the container image.
 ENV APP_HOME /app
